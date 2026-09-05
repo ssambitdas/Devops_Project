@@ -1,5 +1,10 @@
-resource "azurerm_resource_group" "rg_sambit" {
+resource "azurerm_resource_group" "rg_sambit1" {
   name     = "rg-sambit1"
+  location = "centralindia"
+}
+
+resource "azurerm_resource_group" "rg_sambit2" {
+  name     = "rg-sambit2"
   location = "centralindia"
 }
 resource "azurerm_storage_account" "storage_sambit" {
